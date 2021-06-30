@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: #eee;
+}
+
+main{
+    min-height: calc(100vh - 270px);
+}

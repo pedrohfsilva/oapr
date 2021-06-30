@@ -1,0 +1,68 @@
+img.image {
+    margin-top: -100px;
+}
+
+.subtitulo{
+    width: 60%;
+    height: 65px;
+    background-color: #02A435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.Esquerda a{
+    margin-bottom: 50px;
+}
+
+.Direita a img, .Esquerda a img {
+    transition: transform 200ms;
+}
+
+.Direita a img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Esquerda a img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Direita a{
+    margin-bottom: 50px;
+}
+.Esquerda{
+    border-right: 5px dotted green;
+    width: 50%;
+}
+.container{
+    display: flex;
+    width: 50%;
+    margin: 50px auto 50px;
+    justify-content: space-between;
+
+}
+.Aspta{
+    position: relative;
+    margin-top: 50px;
+}
+.Isa{
+    position: relative;
+    margin-top: 50px;
+}
+.Ipe{
+    position: relative;
+    margin-top: 50px;
+}
+.imaflora{
+    position: relative;
+    margin-top: 50px;
+}
+a{
+    display: block;
+}

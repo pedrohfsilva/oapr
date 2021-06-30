@@ -1,0 +1,112 @@
+.subtitulo {
+    width: 65%;
+    height: 65px;
+    background-color: #02A435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.imageQuemSomos {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.logotipoNaVertical {
+    width: 20%;
+    height: 100%;
+    margin: 80px auto;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipoNaVertical img {width: 100%;}
+
+.textoLogo{
+    margin: 20px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#02A435;
+    font-size: 30px;
+}
+
+h1 + h1 {
+    margin-top: 1em;
+}
+
+.segundaImagem {
+    position: relative;
+    width: 0px;
+    margin: 120px auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.texto2 {
+    width: 500px;
+	height: 290px;
+    text-align: justify;
+    position: absolute;
+    margin: 90px auto;
+    margin-bottom: 80px;
+    margin-left: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+.linkFinal {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    border: 3px solid #02A435;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkQS:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #02A435;
+	background-color:transparent;
+}
+.linkQS:visited{
+    font-family: Arial, Helvetica, sans-serif;
+	color: #02A435;
+	background-color:transparent;
+	text-decoration: underline;
+}
+
+.linkQS:hover {
+	text-align: center;
+	color: #02A435;
+	background-color:transparent;
+}
+
+.linkQS:active {
+    font-family: Arial, Helvetica, sans-serif;
+	color: #88FF7E;
+	background-color:transparent;
+	text-decoration: underline;
+}

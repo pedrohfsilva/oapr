@@ -1,0 +1,51 @@
+.rodape {
+    width: 100%;
+    height: 80px;
+    background-color: #88FF7E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+    box-shadow: 0 0 20px #0006;
+}
+
+.rodape p {
+    font: normal 24px Arial, sans-serif;
+    color: #222;
+}
+
+.rodape .contato {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape .contato .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0006;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 200ms, border-color 200ms;
+}
+
+.rodape .contato .icon:hover {
+    background-color: transparent;
+    border-color: #0006;
+}
+
+.rodape .contato i {
+    font-size: 20px;
+    color: #fff;
+    transition: color 200ms;
+}
+
+.rodape .contato .icon:hover i {
+    color: #0006;
+}

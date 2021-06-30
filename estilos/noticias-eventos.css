@@ -1,0 +1,122 @@
+img.image {
+    margin-top: -20px;
+}
+
+.container {
+    width: 1000px;
+    margin: 40px auto 0;
+}
+
+.subtitulo{
+    width: 60%;
+    height: 65px;
+    background-color: #02A435;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+div .subtitulo {
+    margin-top: 80px;
+}
+
+.noticiaprincipal{
+    width: 1000px;
+    height: 250px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 16px #0006;
+    cursor: pointer;
+}
+
+.noticiaprincipal img {
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 200ms;
+    object-fit: cover;
+}
+
+.noticias{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias:nth-of-type(2) {
+    margin-bottom: 100px;
+}
+
+.noticias div {
+    width: 300px;
+    height: 225px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 16px #0006;
+    cursor: pointer;
+}
+
+.noticias div img {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 200ms;
+    object-fit: cover;
+}
+
+.legenda{
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    color: #00531b;
+}
+
+.noticias:nth-of-type(1) .legenda {
+    font-size: 18px;
+}
+
+.legendaprincipal{
+    font-size: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: #00531b;
+}
+
+.noticiaprincipal:hover img,
+.noticias div:hover img {
+    transform: scale(1.05);
+}
